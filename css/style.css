@@ -21,6 +21,7 @@ body {
 
 .container {
   max-width: 1170px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -72,4 +73,19 @@ p {
 
 .card ul {
   padding-top: 20px;
+}
+
+/******************************
+        RESPONSIVE
+******************************/
+@media screen and (max-width: 767px){
+  .card {
+    width: calc(calc(100% - 60px) / 2);
+  }
+}
+
+@media screen and (max-width: 575px){
+  .card {
+    width: 100%;
+  }
 }
