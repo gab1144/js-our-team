@@ -32,8 +32,12 @@ const team = [
 ];
 
 for(let persona of team){
+  //milestone 1
   console.log(persona.nome);
   console.log(persona.ruolo);
   console.log(persona.foto);
   console.log("-------------------");
+  
+  //milestone 2
+  document.querySelector(".container").innerHTML += `<span class="d-block">${persona.nome} - ${persona.ruolo} - ${persona.foto}</span>`;
 }
