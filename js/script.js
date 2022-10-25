@@ -73,7 +73,9 @@ for(let persona of team){
   document.querySelector(".area-card").innerHTML += `
   
     <div class="card">
-      <img src="img/${persona.foto}" alt="Foto profilo ${persona.nome}">
+      <div class="profile-photo">
+        <img src="img/${persona.foto}" alt="Foto profilo ${persona.nome}">
+      </div>
       <h2>${persona.nome}</h2>
       <span>${persona.ruolo}</span>
       <ul>

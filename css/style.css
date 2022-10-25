@@ -59,7 +59,17 @@ p {
   padding-bottom: 30px;
 }
 
+.profile-photo {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card:hover .profile-photo img{
+  transform: scale(1.1);
+}
+
 .card img {
+  transition: 1s;
   width: 100%;
 }
 
