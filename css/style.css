@@ -55,6 +55,7 @@ p {
   background-color: white;
   margin-bottom: 50px;
   color: var(--card-text-color);
+  padding-bottom: 30px;
 }
 
 .card img {
@@ -67,5 +68,8 @@ p {
 
 .card span {
   padding-top: 15px;
-  padding-bottom: 30px;
+}
+
+.card ul {
+  padding-top: 20px;
 }
