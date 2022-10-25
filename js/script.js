@@ -64,14 +64,14 @@ for(let persona of team){
   console.log(persona.foto);
   console.log("-------------------");
   
+  //salva tutti gli aggettivi in listAggettivi
   let listaAggettivi = "";
   for(let aggettivo of persona.aggettivi) {
     listaAggettivi += `<li>${aggettivo}</li>`;
   }
   
-  //milestone 2
+  //inserisce la card nel div con classe "area-card"
   document.querySelector(".area-card").innerHTML += `
-  
     <div class="card">
       <div class="profile-photo">
         <img src="img/${persona.foto}" alt="Foto profilo ${persona.nome}">
