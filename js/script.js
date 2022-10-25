@@ -39,5 +39,11 @@ for(let persona of team){
   console.log("-------------------");
   
   //milestone 2
-  document.querySelector(".container").innerHTML += `<span class="d-block">${persona.nome} - ${persona.ruolo} - ${persona.foto}</span>`;
+  document.querySelector(".area-card").innerHTML += `
+  
+    <div class="card">
+      <img src="img/${persona.foto}" alt="Foto profilo ${persona.nome}">
+      <h2>${persona.nome}</h2>
+      <span>${persona.ruolo}</span>
+    </div>`;
 }
