@@ -1,4 +1,4 @@
-const ricette = [
+const team = [
   {
     nome: "Wayne Barnett",
     ruolo: "Founder & CEO",
@@ -30,3 +30,10 @@ const ricette = [
     foto: "barbara-ramos-graphic-designer.jpg",
   }
 ];
+
+for(let persona of team){
+  console.log(persona.nome);
+  console.log(persona.ruolo);
+  console.log(persona.foto);
+  console.log("-------------------");
+}
